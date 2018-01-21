@@ -24,7 +24,7 @@ VideoClipImporter:
   flipHorizontal: 0
   pixelAspectRatioNumerator: 1
   pixelAspectRatioDenominator: 1
-  importAudio: 1
+  importAudio: 0
   sourceAudioChannelCount: 0200
   sourceAudioSampleRate: 80bb0000
   targetSettings:
@@ -38,7 +38,7 @@ VideoClipImporter:
       bitrateMode: 2
       spatialQuality: 2
   output:
-    format: 4
+    format: 0
     settings:
       enableTranscoding: 1
       codec: 0
@@ -55,7 +55,7 @@ VideoClipImporter:
     streamedResource:
       source: library/metadata/f4/f40610c22fa5a444d9fe5234efb25764.resource
       offset: 0
-      size: 3100029
+      size: 7866704
   userData: 
   assetBundleName: 
   assetBundleVariant: 

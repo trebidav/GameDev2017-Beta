@@ -149,7 +149,7 @@ public class CatController : MonoBehaviour {
 
     void Crawl(Vector3 target){
 
-        target.y = this.gameObject.transform.position.y;
+        target.y = transform.position.y - 0.5f;
         moveTarget = target;
         crawling = true;
         moving = true;

@@ -4730,7 +4730,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4708189461100536, guid: 2cb41313ae0a644fab360efe65651f60, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -12.23
+      value: -11.46
       objectReference: {fileID: 0}
     - target: {fileID: 4708189461100536, guid: 2cb41313ae0a644fab360efe65651f60, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4763,6 +4763,11 @@ Prefab:
     - target: {fileID: 4708189461100536, guid: 2cb41313ae0a644fab360efe65651f60, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114411278806124708, guid: 2cb41313ae0a644fab360efe65651f60,
+        type: 2}
+      propertyPath: Switch
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2cb41313ae0a644fab360efe65651f60, type: 2}
@@ -11176,11 +11181,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4903888456646742, guid: 2a42e7cda9ac642978e21865a30d6d17, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -25.44
+      value: 36.4
       objectReference: {fileID: 0}
     - target: {fileID: 4903888456646742, guid: 2a42e7cda9ac642978e21865a30d6d17, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.65
+      value: -2.71
       objectReference: {fileID: 0}
     - target: {fileID: 4903888456646742, guid: 2a42e7cda9ac642978e21865a30d6d17, type: 2}
       propertyPath: m_LocalPosition.z
@@ -11366,12 +11371,12 @@ Prefab:
     - target: {fileID: 61053773316826670, guid: f9c8c487ba9904a3bbd31b4bbc673d22,
         type: 2}
       propertyPath: m_Offset.x
-      value: -0.991848
+      value: -0.26822662
       objectReference: {fileID: 0}
     - target: {fileID: 61053773316826670, guid: f9c8c487ba9904a3bbd31b4bbc673d22,
         type: 2}
       propertyPath: m_Size.x
-      value: 2.717308
+      value: 2.9380722
       objectReference: {fileID: 0}
     - target: {fileID: 61727384472648568, guid: f9c8c487ba9904a3bbd31b4bbc673d22,
         type: 2}
@@ -11394,6 +11399,14 @@ Prefab:
     - target: {fileID: 4026510394898926, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4284715192662932, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4284715192662932, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
@@ -11894,12 +11907,12 @@ Prefab:
     - target: {fileID: 61053773316826670, guid: f9c8c487ba9904a3bbd31b4bbc673d22,
         type: 2}
       propertyPath: m_Offset.x
-      value: -0.991848
+      value: 0.52898216
       objectReference: {fileID: 0}
     - target: {fileID: 61053773316826670, guid: f9c8c487ba9904a3bbd31b4bbc673d22,
         type: 2}
       propertyPath: m_Size.x
-      value: 2.717308
+      value: 3.5022469
       objectReference: {fileID: 0}
     - target: {fileID: 61727384472648568, guid: f9c8c487ba9904a3bbd31b4bbc673d22,
         type: 2}
@@ -11914,6 +11927,14 @@ Prefab:
     - target: {fileID: 4026510394898926, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
       propertyPath: m_LocalPosition.x
       value: -8.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4284715192662932, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4284715192662932, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9c8c487ba9904a3bbd31b4bbc673d22, type: 2}
@@ -15087,11 +15108,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4140103733024744, guid: 9870d90f1ee5341da973600717908046, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -22.87
+      value: 37.4
       objectReference: {fileID: 0}
     - target: {fileID: 4140103733024744, guid: 9870d90f1ee5341da973600717908046, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.21
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 4140103733024744, guid: 9870d90f1ee5341da973600717908046, type: 2}
       propertyPath: m_LocalPosition.z
@@ -17871,41 +17892,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   generateOnUpdate: 0
   navObstacles:
-  - {fileID: 962831262}
-  - {fileID: 1122179963}
-  - {fileID: 1401360373}
-  - {fileID: 1401255366}
-  - {fileID: 1076301279}
-  - {fileID: 1652028557}
-  - {fileID: 578268290}
-  - {fileID: 41540891}
-  - {fileID: 704036632}
-  - {fileID: 1836927764}
-  - {fileID: 1061613501}
-  - {fileID: 1262504444}
-  - {fileID: 554925079}
-  - {fileID: 64468059}
-  - {fileID: 1705251842}
-  - {fileID: 1868093277}
-  - {fileID: 1124725900}
-  - {fileID: 1948891212}
-  - {fileID: 78694179}
-  - {fileID: 1801257222}
-  - {fileID: 13201257}
-  - {fileID: 43769077}
-  - {fileID: 1476790793}
-  - {fileID: 55129304}
-  - {fileID: 1416895643}
-  - {fileID: 1358773275}
   - {fileID: 798859818}
-  - {fileID: 61512578}
-  - {fileID: 495702536}
-  - {fileID: 1848017277}
-  - {fileID: 49220461}
-  - {fileID: 1387075507}
-  - {fileID: 62912233}
-  - {fileID: 53389780}
+  - {fileID: 1061613501}
   - {fileID: 1812901527}
+  - {fileID: 1705251842}
+  - {fileID: 62912233}
+  - {fileID: 1476790793}
+  - {fileID: 1124725900}
+  - {fileID: 13201257}
+  - {fileID: 1262504444}
+  - {fileID: 1836927764}
+  - {fileID: 1122179963}
+  - {fileID: 704036632}
+  - {fileID: 1848017277}
+  - {fileID: 1868093277}
+  - {fileID: 1801257222}
+  - {fileID: 49220461}
+  - {fileID: 53389780}
+  - {fileID: 1652028557}
+  - {fileID: 78694179}
+  - {fileID: 554925079}
+  - {fileID: 578268290}
+  - {fileID: 1387075507}
+  - {fileID: 1416895643}
+  - {fileID: 1076301279}
+  - {fileID: 1948891212}
+  - {fileID: 64468059}
+  - {fileID: 1401255366}
+  - {fileID: 1401360373}
+  - {fileID: 61512578}
+  - {fileID: 41540891}
+  - {fileID: 43769077}
+  - {fileID: 55129304}
+  - {fileID: 1358773275}
+  - {fileID: 962831262}
+  - {fileID: 495702536}
   inflateRadius: 0.1
 --- !u!4 &1530571370
 Transform:
