@@ -78,9 +78,6 @@ public class Crawl : MonoBehaviour
 
             if (active)
             {
-
-
-
                 catObject.SendMessage("Crawl", sibling.transform.position); //send
                 active = false;
                 sibling.SendMessage("PlaySound");

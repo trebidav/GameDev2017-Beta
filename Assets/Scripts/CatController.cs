@@ -42,7 +42,7 @@ public class CatController : MonoBehaviour {
             moveTarget.y = transform.position.y;
         }
 
-        if ((moveTarget - transform.position).magnitude < 0.1f)
+        if ((moveTarget - transform.position).magnitude < 0.1f || Mathf.Abs(moveTarget.y - transform.position.y) > 5.0f)
         {
             moving = false;
             anim.SetTrigger("Stay");

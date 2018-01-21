@@ -28,15 +28,13 @@ public class ChangeScene : MonoBehaviour {
         }
         else if (collision.gameObject.tag == "Cat"){
             //Change();
-
-            StartCoroutine(Wait());
-         
+            this.GetComponent<AudioSource>().Play();
+            Invoke("Change", 1);
         }
 
     }
 
     public void Change(){
-        if (Scene != "")
             UnityEngine.SceneManagement.SceneManager.LoadScene(Scene);
     }
  
@@ -44,11 +42,5 @@ public class ChangeScene : MonoBehaviour {
             Application.Quit();
     }
 
-    IEnumerator Wait()
-    {
-        this.GetComponent<AudioSource>().Play();
-        yield return new WaitForSeconds(1);
-        Change();
 
-    }
 }
