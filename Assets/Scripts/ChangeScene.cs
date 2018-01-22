@@ -29,7 +29,7 @@ public class ChangeScene : MonoBehaviour {
         else if (collision.gameObject.tag == "Cat"){
             //Change();
             this.GetComponent<AudioSource>().Play();
-            Invoke("Change", 1);
+            Invoke("Change", 2);
         }
 
     }
